@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export JAVA_OPTS="-Dindex.dir=/var/lib/openshift/5218a5da5004464cb5000645/app-root/data/lucene-index-files"
+
