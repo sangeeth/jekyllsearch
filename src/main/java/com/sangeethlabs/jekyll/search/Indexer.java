@@ -30,10 +30,10 @@ import org.apache.lucene.util.Version;
 public class Indexer {
 
     public static void main(String[] args) {
-        indexFiles("/Users/sangeeth/git/openshift/corvidin/target/lucene/sangeethlabs.com",
+        indexFiles("/Users/sangeeth/git/openshift/jekyllsearch/target/lucene/sangeethlabs.com",
                    "/Users/sangeeth/git/sangeeth.github.com/", 
                    true);
-        indexFiles("/Users/sangeeth/git/openshift/corvidin/target/lucene/corvid.in",
+        indexFiles("/Users/sangeeth/git/openshift/jekyllsearch/target/lucene/corvid.in",
                 "/Users/sangeeth/git/corvid.github.com/", 
                 true);
     }
